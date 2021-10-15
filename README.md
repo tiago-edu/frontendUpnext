@@ -50,3 +50,10 @@ Para facilitar o entendimento e deixar mais claro como usar melhor o tempo, voc�
   - Legibilidade
   - Organização
   - Boas práticas
+
+## Pronto para começar o desafio?
+
+- Faça um "fork" desse repositório na sua conta do Github
+- Crie uma branch com o seu nome e sobrenome ex: patrick-santos
+- Após completar o desafio, crie um "pull request" nesse repositório comparando a sua branch com a master
+- Receberemos uma notificação do seu pull request, faremos a avaliação da sua solução e entraremos em contato.
