@@ -27,7 +27,7 @@ Para que o projeto funcione como o desenhado, os selects devem trazer a lista de
 No arquivo plants.json constam todas plantas e suas caracteristicas, a partir destas informações você pode criar a lista de plantas.
 Por exemplo:
 - Caso o usuário selecione a opção "low" no select "sunlight", deve ser apresentada a lista de plantas que contenham o valor de "sun" igual a "low".
-- Se na sequência o usuário selecionar a opção "true" no select "pets", deve ser apresentada a lista de plantas que contenham o valor de "toxicity" igual a "false", alem de limpar a seleção dos outro selects.
+- Se na sequência o usuário selecionar a opção "true" no select "pets", deve ser apresentada a lista de plantas que contenham o valor de "toxicity" igual a "false", alem de limpar a seleção dos outros selects.
 
 ** A lista de plantas pode ser gerada dinâmicamente pelo js, ou ser montada em html, com o js sendo responsável apenas por exibir/ocultar o resultado correto.
 
