@@ -55,6 +55,7 @@ Para facilitar o entendimento e deixar mais claro como usar melhor o tempo, voc�
 
 - Faça um "fork" desse repositório na sua conta do Github
 - Crie uma branch com o seu nome e sobrenome ex: patrick-santos
-- Após completar o desafio, crie um "pull request" nesse repositório comparando a sua branch com a master
-- Receberemos uma notificação do seu pull request, faremos a avaliação da sua solução e entraremos em contato.
-- Valorizamos pessoas que queiram aprender, então caso tenha alguma dificuldade, ou não consiga realizar todo teste, pode entrar em contato comigo para te ajudar: raphael@upnext.com.br.
+- Após completar o desafio, faça o merge da branch criada para master
+- Finalizando esses itens, envie o link do seu repositório para o email raphael@upnext.com.br com cópia para administrativo@upnext.com.br
+
+* Valorizamos pessoas que queiram aprender, então caso tenha alguma dificuldade, ou não consiga realizar todo teste, pode entrar em contato comigo para te ajudar: raphael@upnext.com.br.
