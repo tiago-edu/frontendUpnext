@@ -14,7 +14,7 @@ Seu objetivo é construir uma aplicação sem uso de frameworks (Ex: React, Angu
 - [Mobile](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A297)
 - [Styleguide](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A526)
 
-Considerando Desktop & Mobile, portanto, é uma aplicação **responsiva**.
+A aplicação deve ser **responsiva**, portanto, se adaptar ao desktop e mobile.
 
 ## Funcionamento do JS
 
@@ -57,3 +57,4 @@ Para facilitar o entendimento e deixar mais claro como usar melhor o tempo, voc�
 - Crie uma branch com o seu nome e sobrenome ex: patrick-santos
 - Após completar o desafio, crie um "pull request" nesse repositório comparando a sua branch com a master
 - Receberemos uma notificação do seu pull request, faremos a avaliação da sua solução e entraremos em contato.
+- Valorizamos pessoas que queiram aprender, então caso tenha alguma dificuldade, ou não consiga realizar todo teste, pode entrar em contato comigo para te ajudar: raphael@upnext.com.br.
