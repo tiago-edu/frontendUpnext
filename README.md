@@ -58,4 +58,4 @@ Para facilitar o entendimento e deixar mais claro como usar melhor o tempo, voc�
 - Após completar o desafio, faça o merge da branch criada para master
 - Finalizando esses itens, envie o link do seu repositório para o email raphael@upnext.com.br com cópia para administrativo@upnext.com.br
 
-* Valorizamos pessoas que queiram aprender, então caso tenha alguma dificuldade, ou não consiga realizar todo teste, pode entrar em contato comigo para te ajudar: raphael@upnext.com.br.
+** Valorizamos pessoas que queiram aprender, então caso tenha alguma dificuldade, ou não consiga realizar todo teste, pode entrar em contato comigo para te ajudar: raphael@upnext.com.br.
