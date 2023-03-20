@@ -8,7 +8,7 @@ Neste repositório constam alguns arquivos iniciais junto com todas as imagens n
 
 ## Objetivo
 
-Seu objetivo é construir uma aplicação sem uso de frameworks (Ex: React, Angular entre outros) de acordo com esse layout:
+Seu objetivo é construir uma aplicação sem uso de frameworks (Ex: NodeJS, React, Angular entre outros) de acordo com esse layout:
 
 - [Desktop](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A130)
 - [Mobile](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A297)
