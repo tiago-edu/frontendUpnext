@@ -1,0 +1,156 @@
+/* Observação importante para o avaliador: foi me passado que era somente para fazer "Mobile" e "Desktop", porém, eu não soube discernir se "Mobile" Seria de 280px até 425px ou até 768px (tablet). E desktop se seria somente 1920px ou se incluiria 1440, 1366, 1280, e etc... em resumo, fiz a responsividade para 280 até 425px, 768px, 1024px, 1440px e 1920px.  */
+
+@media (min-width: 280px) and (max-width: 426px) {
+  /*Responsividade para mobile devices*/
+
+  /* TITLE */
+  .textInsideImg {
+    gap: 1.75rem;
+    top: 5%;
+  }
+  h1 {
+    font-size: 46px;
+  }
+  
+  /* HAND CONTAINER */
+  .handContainer {
+    display: flex;
+    flex-direction: row;  
+    padding: 5% 12%;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  .card {
+    padding: 0% 20% 10%;
+  }
+
+  /* No PICKS CONTAINER */
+  .textNoPicks {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .noPicks {
+    flex-direction: column;
+  }
+  #noResultParagraph {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 1440px) {
+  /* SELECTS */
+  .select {
+    width: 80%;
+  }
+  .selectsContainer {
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /*Responsividade para a foto e titulo do header*/
+  /* TITLE */
+  .mobileImg {
+    display: block;
+  }
+  .deskTopImg {
+    display: none;
+  }
+  .textInsideImg {
+    left: 10%;
+    width: 82%;
+  }
+  .logoImg {
+    width: 50%;
+  }
+  .arrowImg {
+    width: 15%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* TITLE */
+  .textInsideImg {
+    gap: 1rem;
+    left: 8%;
+    width: 30%;
+  }
+  .logoImg {
+    width: 50%;
+  }
+  h1 {
+    font-size: 52px;
+  }
+
+  /* SELECTS */
+  .select {
+    width: 15rem;
+  }
+
+
+  /* HAND CONTAINER */
+  .handContainer {
+    padding-left: 5rem;
+  }
+
+  /* NO PICKS CONTAINER */
+  .noPicks {
+    justify-content: start;
+    padding-left: 5rem;
+    gap: 25%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+  /* No PICKS CONTAINER */
+  .noPicks,
+  .handContainer {
+    justify-content: start;
+    padding-left: 18rem;
+    gap: 25%;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+  /* TITLE */
+  h1 {
+    font-size: 64px;
+  }
+
+  .textInsideImg {
+    left: 20%;
+  }
+
+  /* SELECTS */
+  .select {
+    width: 15rem;
+  }
+  .selectsContainer {
+    gap: 6.5%;
+  }
+
+
+  /* No PICKS CONTAINER */
+  .noPicks,
+  .handContainer {
+    justify-content: start;
+    padding-left: 17rem;
+    gap: 30%;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+  /* SELECTS */
+
+  .selectsContainer {
+    gap: 14rem;
+  }
+
+  /* No PICKS CONTAINER */
+  .noPicks,
+  .handContainer {
+    padding-left: 23rem;
+  }
+
+}

@@ -1,17 +1,101 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
-    <title>YpNext FrontEnd Test - Greenthumb</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      href="//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800"
       rel="stylesheet"
+      type="text/css"
     />
-    <link rel="stylesheet" href="./index.scss" />
-  </head>
 
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/ImgContainer.css" />
+    <link rel="stylesheet" href="./css/InputsSelectsContainer.css" />
+    <link rel="stylesheet" href="./css/noPicks.css" />
+    <link rel="stylesheet" href="./css/plants.css" />
+    <link rel="stylesheet" href="./css/responsivity.css" />
+
+    <!-- Script -->
+    <script type="module" src="./js/filter.js" defer /></script>
+
+    <!-- HTML -->
+    <title>Store Plants</title>
+  </head>
   <body>
-    <img src="images/icons/logo-white.svg" alt="Greenthumb" />
+    <!-- Container de Imagem Desktop/Mobile -->
+    <div class="imgContainer">
+      <img src="assets/mainDesktopImage.svg" alt="DeskTopImage" class="deskTopImg" />
+      <img src="assets/mainMobileImage.svg" alt="MobileImage" class="mobileImg" />
+
+      <div class="textInsideImg">
+        <img src="./assets/logo-white.svg" alt="logo_greenHub" class="logoImg">
+        <h1>Find your next green friend</h1>
+        <img src="assets/downArrow.svg" alt="arrowDown" class="arrowImg">
+      </div>
+    </div>
+    <!-- Section de Selects -->
+    <section class="selectsContainer">
+        <div class="select">
+            <img src="./assets/sun.svg" alt="sun"/>
+            <p>
+              <b>1.</b> Set the amount of <b>sunlight</b> your plant will get
+            </p>
+            <select name="sunlight" id="sunlight" onChange="handleSunlightChange()" >
+              <option value="">Select...</option>
+              <option value="no">no</option>
+              <option value="low">low</option>
+              <option value="high">high</option>
+            </select>
+          </div>
+          <div class="select">
+            <img src="assets/wateringcan.svg" alt="wateringcan"/>
+            <p>
+              <b>2.</b> How often do you want to <b>water</b> your plant?
+            </p>
+            <select name="water" id="water" onChange="handleWaterChange()">
+              <option value="">Select...</option>
+              <option value="regularly">regularly</option>
+              <option value="daily">daily</option>
+              <option value="rarely">rarely</option>
+            </select>
+          </div>
+          <div class="select">
+            <img src="assets/dog.svg" alt="dog"/>
+            <p>
+              <b>3.</b> do you have pets? Do they <b>chew</b> plants?
+            </p>
+            <select name="animal" id="animal" onChange="handlePetsChange()">
+              <option value="">Select...</option>
+              <option value="true">true</option>
+              <option value="false">false</option>
+            </select>
+          </div>
+      </section>
+    </div>
+    <!-- Section de "Sem resultados" -->
+    <section class="noPicks">
+        <div class="textNoPicks">
+            <h2>No results yet…</h2>
+            <p id="noResultParagraph">Use the filters above to find the plant that best fits your environment :)  </p>
+        </div>
+        <img src="assets/jug.svg" alt="Jug" />
+    </section>
+    <!-- Section principal -->
+     <section class="mainContainer">
+      <div class="handContainer">
+        <img src="assets/hand.svg" alt="hand" />
+            <h2>Our picks for you!</h2>
+     </div>
+      <div class="plantsContainer">
+        <div class="cards">
+        <!-- Carregando dinamicamente -->
+        </div>
+      </div>
+    </section>
   </body>
 </html>
+
+
+

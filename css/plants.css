@@ -1,0 +1,53 @@
+.handContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3rem 3rem 0rem 3rem;
+    gap: 1.5rem;
+    width: 100%;
+    background-color: #F6F6F6;
+    color: #0C261C;
+    align-items: flex-start;
+}
+
+.mainContainer{
+    display: none;
+}
+
+.plantsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.card{
+    margin: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px 20px 20px 20px;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.card p{
+    color: #15573F;
+    font-weight: 700;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+
+.plantImage{
+    width: 160px;
+}

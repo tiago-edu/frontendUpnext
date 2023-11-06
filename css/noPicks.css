@@ -1,0 +1,23 @@
+.noPicks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 2rem;
+    gap: 4rem;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+
+.textNoPicks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22rem;
+    gap: 1rem;
+    color: #A9A9A9;
+}
+
+#noResultParagraph{
+    width: 15rem;
+}

@@ -1,0 +1,23 @@
+.imgContainer {
+  position: relative;
+}
+
+.deskTopImg {
+  width: 100%;
+}
+
+.textInsideImg {
+  gap: 3rem;
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  color: white;
+  width: 30%;
+  flex-wrap: wrap;
+}
+
+.mobileImg {
+  display: none;
+  width: 100%;
+}
